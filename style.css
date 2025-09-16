@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #DDD;
+    user-select: none;
+}
+
+h1 {
+    padding: 20px;
+    margin: 0 0 20px;
+    background-color: white;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: auto;
+    max-width: 900px;
+}
+
+form {
+    padding: 20px;
+    background-color: white;
+    border-radius: 6px;
+    text-align: center;
+}
+
+
+form h2 {
+    margin: 0 0 15px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 0 0 15px;
+    border: 1px solid #DDD;
+    border-radius: 6px;
+    background-color: #f6f6f6;
+}
+
+
+
+
+form input:focus {
+    outline: none;
+    border: 1px solid #aaa;
+}
+
+
+.categoryD-buttonsT {
+padding: 20px; /*NOOT*/
+background-color: #DDD;
+    margin: 0 0 15px;
+}
+
+
+.categoryD-buttonsT h4 {
+    margin: 0;
+    color: #444;
+    font-weight: normal;
+    line-height: 1.8;
+}
+
+.categoryD-buttonsT div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+.categoryD-buttonsT span {
+    color: coral;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: wheat;
+    padding: 5px;
+    border-radius: 6px;
+    transition: .2s;
+}
+
+.categoryD-buttonsT span:hover {
+    color: white;
+    background-color: orange;
+}
+
+form button {
+width: 100%;
+padding: 15px;
+margin: 10px 0;
+border: none;
+border-radius: 6px;
+background-color: #f44336;
+color: white;
+font-size: 18px;
+cursor: pointer;
+transition: .2s;
+}
+
+form button:hover {
+    color: red;
+    background-color: wheat;
+}
+
+h2.showAllBtn {
+cursor: pointer;
+transition: .3s;
+background-color: burlywood;
+width: fit-content;
+margin: 15px auto 0;
+padding: 5px;
+border-radius: 3px;
+}
+
+h2.showAllBtn:hover {
+    background-color: wheat;
+}
+
+h2.showAllBtn:hover,
+h2.showAllBtn.active { 
+    color: red;
+}
+
+
+.categoryD-buttonsB {
+    background-color: azure;
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.categoryD-buttonsB h4 {
+    margin: 0;
+    color: #444;
+    font-weight: normal;
+    line-height: 1.8;
+}
+
+.categoryD-buttonsB div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.categoryD-buttonsB div span {
+    padding: 5px;
+    background-color: #eee;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+
+.categoryD-buttonsB div span:hover,
+.categoryD-buttonsB div span.active {
+    background-color: #f44336;
+    color: white;
+}
+
+.bookmarksLinks > div {
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 10px;
+margin: 10px 0;
+background-color: white;
+padding: 20px;
+}
+
+.bookmarksLinks  div .num {
+background-color: #DDD;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+}
+
+.bookmarksLinks  div .cat {
+width: 120px;
+background-color: #eee;
+padding: 10px;
+text-align: center;
+border-radius: 6px;
+margin-right: 15px;
+}
+
+.bookmarksLinks  div .link {
+    flex: 1;
+}
+
+.bookmarksLinks  div .link a {
+    text-decoration: none;
+    color: blue;
+    /* transition: .3s; */
+}
+
+
+.bookmarksLinks  div .link a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+.bookmarksLinks  div button {
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #f44336;
+    color: white;
+    cursor: pointer;
+    transition: .3s;
+    font-weight: bold;
+}

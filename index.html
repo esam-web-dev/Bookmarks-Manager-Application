@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Bookmarks Manager Application</h1>
+
+    <div class="container">
+
+        <form action="">
+
+            <h2>Add New Bookmark</h2>
+            <input type="text" class="title" placeholder="Website Text">
+            <input type="url" class="url" placeholder="Website URL">
+
+            <div class="categoryD-buttonsT"> <!-- seggestion-->
+                <h4>Choose From Categories Or Add A New One</h4>
+                <div>
+                    <!-- <span>One</span> -->
+                    <!-- <span>Tow</span> -->
+                    <!-- <span>Three</span> -->
+                </div> <!-- هون رح تنضاف الاقسام لصغار-->
+            </div>
+            <input type="text" class="categoryText" placeholder="New Categorie Name">
+            <button type="button" onclick="saveBokmark()">Add Bookmark</button>
+        </form>
+
+        <h2 class="showAllBtn">Show All Bookmarks</h2>
+
+        <div class="categoryD-buttonsB">
+            <h4>Filter Bokkmarks By Added Categories</h4>
+            <div>
+                    <!-- <span>One</span> -->
+                    <!-- <span>Tow</span> -->
+                    <!-- <span>Three</span> -->
+            </div> <!-- هون رح تنضاف الاقسام لصغار-->
+        </div>
+
+        <div class="bookmarksLinks"></div> <!-- هون رح تنضاف الاقسام تبع المواقع-->
+
+    </div>
+
+
+
+    <script src="java.js"></script>
+</body>
+</html>
